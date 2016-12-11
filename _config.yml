@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
+title: AirArt Videography - Arthur Eby
+email: abe4956@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "www.arthureby.com" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+twitter_username: arthureby
+facebook_username: arthur.eby
 
 # Build settings
 markdown: kramdown
