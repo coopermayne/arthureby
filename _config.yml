@@ -11,3 +11,5 @@ instagram_username: airartdrone
 
 # Build settings
 markdown: kramdown
+
+image_source: https://airartdrones.imgix.net

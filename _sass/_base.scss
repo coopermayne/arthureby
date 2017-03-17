@@ -155,7 +155,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: $header-url-mobile;
     text-align: center;
     color: white;
     .header-content {
@@ -182,6 +182,7 @@ header {
         }
     }
     @media (min-width: 768px) {
+        background-image: $header-url;
         min-height: 100%;
         .header-content {
             position: absolute;
@@ -372,4 +373,10 @@ body {
 
 #logobottom {
   margin-top: 20px;
+}
+
+.contact .container{
+  img {
+    width: 100%
+  }
 }
